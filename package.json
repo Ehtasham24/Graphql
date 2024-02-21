@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.2",
+    "apollo-server-fastify": "^3.13.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^3.29.5",
+    "graphql": "^16.8.1",
+    "graphql-schema-utilities": "^1.1.7",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.1"
+  }
+}
